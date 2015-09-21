@@ -1,0 +1,67 @@
+.box{
+	width: 28px;
+	height: 28px;
+	margin:auto;
+	display: inline-block; 
+	border: 1px solid gray; 
+	border-radius: 2px;
+	background: #D8D8D8;
+	}
+.box-red{
+	background: #FF0000;
+}
+body{
+	background-color: #C6E2FF;
+}
+.box-blue{
+		background: #2E2EFE;
+}
+.red{
+	color: #FF0000;
+}
+.blue{
+	color: #2E2EFE
+}
+.turn{
+	margin: 0;
+}
+.player-red {
+	color: #FF0000;
+}
+.player-blue {
+	color: #2E2EFE;
+}
+#chat{
+	display: inline-block;
+	width: 25%;
+	height: 21px;
+}
+#content{
+	width: 60%;
+	text-align: center;
+	display: inline-block;
+}
+form{
+	vertical-align: bottom;
+}
+input{
+	width: 78%;
+	margin-right: .5%;
+	background-color: #9FB6CD;
+}
+button{
+	width: 19.7%;
+}
+#messages{ 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#messages li
+{ padding: 4px 3px; 
+}
+#messages li:nth-child(odd) { background: #eee; }
+::-webkit-input-placeholder {
+   color: white;
+   text-align: center;
+}
