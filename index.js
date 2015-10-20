@@ -160,10 +160,7 @@ io.on('connection',function(socket){
 		io.emit('fillcolor', map);
 	});
 	socket.on('chat message',function(massage){
-		if(socket.id == players[0] || socket.id == players[1]){
 			massage  = socket.username + ": " + massage;
-			io.to(players[0]).emit('chat massage',massage);
-			io.to(players[1]).emit('chat massage',massage);
-		}
+			io.emit('chat massage',massage);
 	});
 });
